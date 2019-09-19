@@ -1,0 +1,48 @@
+{
+  "name": "jambagecom/base-svg",
+  "type": "typo3-cms-extension",
+  "description": "A library to read, parse and export to PDF SVG files.",
+  "keywords": [
+    "TYPO3",
+    "extension",
+    "svg",
+    "phpOffice"
+  ],
+  "support": {
+    "issues": "https://github.com/franzholz/base_svg/issues"
+  },
+  "homepage": "https://jambage.com",
+  "authors": [
+    {
+      "name": "Fabien Ménager",
+      "email": "fabien.menager@gmail.com"
+    },
+    {
+      "name": "Franz Holzinger",
+      "role": "Developer",
+      "homepage": "https://ttproducts.de"
+    }
+  ],
+  "license": [
+    "GPL-2.0+"
+  ],
+  "require": {
+    "sabberworm/php-css-parser": "8.1.*",
+    "typo3/cms-core": ">=6.2.0,<9.5.99",
+    "php": ">=5.4.0,<7.3.99",
+  },
+  "autoload": {
+    "psr-0": {
+      "Svg\\": "Vendor/php-svg-lib/src/Svg/"
+    }
+  },
+  "replace": {
+    "base_svg": "self.version",
+    "typo3-ter/base-svg": "self.version"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "base_svg"
+    }
+  }
+}
