@@ -29,7 +29,7 @@
   "require": {
     "sabberworm/php-css-parser": "8.1.*",
     "typo3/cms-core": ">=6.2.0,<9.5.99",
-    "php": ">=5.4.0,<7.3.99",
+    "php": ">=5.4.0,<7.3.99"
   },
   "autoload": {
     "psr-0": {
