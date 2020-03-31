@@ -1,5 +1,5 @@
 {
-  "name": "jambagecom/base-svg",
+  "name": "phenx/php-svg-lib",
   "type": "typo3-cms-extension",
   "description": "A library to read, parse and export to PDF SVG files.",
   "keywords": [
@@ -24,12 +24,12 @@
     }
   ],
   "license": [
-    "GPL-2.0+"
+    "GPL-2.0-or-later"
   ],
   "require": {
     "sabberworm/php-css-parser": "8.1.*",
-    "typo3/cms-core": ">=6.2.0,<9.5.99",
-    "php": ">=5.4.0,<7.3.99"
+    "typo3/cms-core": ">=6.2.0,<=9.5.99",
+    "php": ">=5.4.0,<=7.3.99"
   },
   "autoload": {
     "psr-0": {
@@ -37,7 +37,7 @@
     }
   },
   "replace": {
-    "base_svg": "self.version",
+    "phenx/php-svg-lib": "self.version",
     "typo3-ter/base-svg": "self.version"
   },
   "extra": {
