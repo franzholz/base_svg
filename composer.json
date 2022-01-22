@@ -27,10 +27,9 @@
     "GPL-2.0-or-later"
   ],
   "require": {
-    "phenx/php-svg-lib": "0.3.*",
-    "sabberworm/php-css-parser": "8.1.*",
-    "php": "^5.5 || ^7.2",
-    "typo3/cms-core": "^6.2 || ^7.6 || ^8.7 || ^9.5 || ^10.4"
+    "sabberworm/php-css-parser": "8.4.*",
+    "php": "^7.4 || ^8.0",
+    "typo3/cms-core": "^9.5 || ^10.4 || ^11.5"
   },
   "repositories": [
     {
@@ -39,7 +38,6 @@
     }
   ],
   "replace": {
-    "jambagecom/base-svg": "self.version",
     "typo3-ter/base-svg": "self.version"
   },
   "extra": {
