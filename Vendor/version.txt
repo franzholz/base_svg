@@ -1,4 +1,4 @@
-php-svg-lib-0.4.0
+php-svg-lib-0.4.1
 
 
 
