@@ -1,3 +1,6 @@
+2023-05-06 Franz Holzinger <franz@ttproducts.de>
+    * Support for TYPO3 12
+
 2022-01-22  Franz Holzinger  <franz@ttproducts.de>
     * fix composer.json
     * support for PHP 8 and TYPO3 11.5
