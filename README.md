@@ -2,7 +2,7 @@
 
 ## What is does
 
-This extension brings the "SVG file parsing / rendering library" PHP classes "phenx/php-svg-lib" to TYPO3.
+This extension brings the "SVG file parsing / rendering library" Dompdf PHP classes "phenx/php-svg-lib" to TYPO3.
 
 ## What is the origin
 
