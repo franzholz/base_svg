@@ -1,8 +1,7 @@
 <?php
 /**
  * @package php-svg-lib
- * @link    http://github.com/PhenX/php-svg-lib
- * @author  Fabien Ménager <fabien.menager@gmail.com>
+ * @link    http://github.com/dompdf/php-svg-lib
  * @license GNU LGPLv3+ http://www.gnu.org/copyleft/lesser.html
  */
 
@@ -449,7 +448,12 @@ class Path extends Shape
         $toX = $tx - $fx;
         $toY = $ty - $fy;
 
-        if ($toX + $toY === 0) {
+        if ((float)($toX + $toY) === 0.0) {
+            return;
+        }
+
+        if ((float)abs($rx) == 0.0 || (float)abs($ry) === 0.0) {
+            $surface->lineTo($tx, $ty);
             return;
         }
 

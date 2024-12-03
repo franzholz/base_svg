@@ -6,10 +6,10 @@ This extension brings the "SVG file parsing / rendering library" Dompdf PHP clas
 
 ## What is the origin
 
-See https://github.com/dompdf/php-svg-lib/tree/0.5.0
+See https://github.com/dompdf/php-svg-lib/tree/1.0.0
 
 ## Documentation
 
-https://github.com/dompdf/php-svg-lib/tree/0.5.0
+https://github.com/dompdf/php-svg-lib/tree/1.0.0
 
 

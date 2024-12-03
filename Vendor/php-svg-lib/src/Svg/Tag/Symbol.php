@@ -9,7 +9,7 @@ namespace Svg\Tag;
 
 use Svg\Style;
 
-class Group extends AbstractTag
+class Symbol extends AbstractTag
 {
     protected function before($attributes)
     {
@@ -22,6 +22,7 @@ class Group extends AbstractTag
         $this->setStyle($style);
         $surface->setStyle($style);
 
+        $this->applyViewbox($attributes);
         $this->applyTransform($attributes);
     }
 
@@ -29,4 +30,4 @@ class Group extends AbstractTag
     {
         $this->document->getSurface()->restore();
     }
-} 
+}

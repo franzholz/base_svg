@@ -27,8 +27,9 @@
     "GPL-2.0-or-later"
   ],
   "require": {
-    "sabberworm/php-css-parser": "8.4.*",
-    "typo3/cms-core": "^10.4 || ^11.5 || ^12.4"
+    "typo3/cms-core": "^11.5 || ^12.4 || ^13.4",
+    "ext-mbstring": "*",
+    "sabberworm/php-css-parser": "^8.4"
   },
   "repositories": [
     {

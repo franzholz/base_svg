@@ -8,7 +8,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'SVG Library',
     'description' => 'A library to read, parse and export to PDF SVG files.',
     'category' => 'misc',
-    'version' => '0.5.0',
+    'version' => '1.0.0',
     'state' => 'stable',
     'clearcacheonload' => 1,
     'author' => 'Fabien Ménager, Franz Holzinger',
@@ -16,11 +16,12 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'jambage.com',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-12.4.99'
+            'typo3' => '11.5.0-13.4.99'
         ],
         'conflicts' => [
         ],
         'suggests' => [
+            'base_css' => '',
         ],
     ],
 ];
